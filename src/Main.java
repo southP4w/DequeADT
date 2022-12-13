@@ -1,7 +1,7 @@
 public class Main
 {
 	public static void main(String[] args) {
-		DeQue<Integer> ds = new DeQue<>();
+		DequeADT<Integer> ds = new DequeADT<>();
 		System.out.print("addLast(5) \t\t\t| --- | \t");
 		ds.addLast(5);
 		System.out.println(ds);

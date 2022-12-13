@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class DeQue<E>
+public class DequeADT<E> implements Deque<E>
 {
 	private final List<E> list;
 
-	public DeQue() {
+	public DequeADT() {
 		list = new ArrayList<>();
 	}
 
